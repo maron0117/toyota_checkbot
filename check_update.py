@@ -33,6 +33,10 @@ def main():
         print("DISCORD_WEBHOOK_URLが設定されていません。")
         sys.exit(1)
 
+　　# Discordの連携が成功しているか確認するためのテスト送信です
+    send_discord_notify("✅ テスト通知です！ボットのプログラムが正常に実行されました。")    
+    
+
     current_hash = get_page_hash()
     if not current_hash:
         sys.exit(1)
