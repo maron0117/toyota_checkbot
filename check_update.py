@@ -5,7 +5,7 @@ import os
 import sys
 
 # 設定項目
-TARGET_URL = https://cp.toyota.jp/rentacar/?padid=ag270_fr_sptop_onewayma
+TARGET_URL = "https://cp.toyota.jp/rentacar/?padid=ag270_fr_sptop_onewayma"
 DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL")
 HASH_FILE = "previous_hash.txt"
 
